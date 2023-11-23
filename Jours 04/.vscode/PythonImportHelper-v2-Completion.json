@@ -1,0 +1,110 @@
+[
+    {
+        "label": "liste",
+        "kind": 2,
+        "importPath": "Job 01.fruit",
+        "description": "Job 01.fruit",
+        "peekOfCode": "def liste(fruit):\n    return list((fruit))\nfruit = [\"pomme\", \"cerise\", \"orange\"]\nresult = liste(fruit)\nprint (result)",
+        "detail": "Job 01.fruit",
+        "documentation": {}
+    },
+    {
+        "label": "fruit",
+        "kind": 5,
+        "importPath": "Job 01.fruit",
+        "description": "Job 01.fruit",
+        "peekOfCode": "fruit = [\"pomme\", \"cerise\", \"orange\"]\nresult = liste(fruit)\nprint (result)",
+        "detail": "Job 01.fruit",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Job 01.fruit",
+        "description": "Job 01.fruit",
+        "peekOfCode": "result = liste(fruit)\nprint (result)",
+        "detail": "Job 01.fruit",
+        "documentation": {}
+    },
+    {
+        "label": "liste",
+        "kind": 2,
+        "importPath": "Job 02.fruit2",
+        "description": "Job 02.fruit2",
+        "peekOfCode": "def liste(fruit):\n    return list(fruit)\nfruits = [\"pomme\", \"cerise\", \"orange\"]\nresult = liste(fruits)\nif len(result) >= 2:\n    deuxieme_element = result[1]\n    print(deuxieme_element)",
+        "detail": "Job 02.fruit2",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Job 02.fruit2",
+        "description": "Job 02.fruit2",
+        "peekOfCode": "fruits = [\"pomme\", \"cerise\", \"orange\"]\nresult = liste(fruits)\nif len(result) >= 2:\n    deuxieme_element = result[1]\n    print(deuxieme_element)",
+        "detail": "Job 02.fruit2",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Job 02.fruit2",
+        "description": "Job 02.fruit2",
+        "peekOfCode": "result = liste(fruits)\nif len(result) >= 2:\n    deuxieme_element = result[1]\n    print(deuxieme_element)",
+        "detail": "Job 02.fruit2",
+        "documentation": {}
+    },
+    {
+        "label": "ajouter_melon",
+        "kind": 2,
+        "importPath": "Job 03.Melon",
+        "description": "Job 03.Melon",
+        "peekOfCode": "def ajouter_melon(fruit):\n    fruit.append(\"melon\")\n    return fruit\nfruits = [\"pomme\", \"cerise\", \"orange\"]\nresult = ajouter_melon(fruits)\nprint(result)",
+        "detail": "Job 03.Melon",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Job 03.Melon",
+        "description": "Job 03.Melon",
+        "peekOfCode": "fruits = [\"pomme\", \"cerise\", \"orange\"]\nresult = ajouter_melon(fruits)\nprint(result)",
+        "detail": "Job 03.Melon",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Job 03.Melon",
+        "description": "Job 03.Melon",
+        "peekOfCode": "result = ajouter_melon(fruits)\nprint(result)",
+        "detail": "Job 03.Melon",
+        "documentation": {}
+    },
+    {
+        "label": "ajouter_melon",
+        "kind": 2,
+        "importPath": "Job 04.Mangue",
+        "description": "Job 04.Mangue",
+        "peekOfCode": "def ajouter_melon(fruit):\n    fruit.insert(2, \"Mangue\")\n    return fruit\nfruits = [\"pomme\", \"cerise\", \"orange\", \"Melon\"]\nresult = ajouter_melon(fruits)\nprint(result)",
+        "detail": "Job 04.Mangue",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Job 04.Mangue",
+        "description": "Job 04.Mangue",
+        "peekOfCode": "fruits = [\"pomme\", \"cerise\", \"orange\", \"Melon\"]\nresult = ajouter_melon(fruits)\nprint(result)",
+        "detail": "Job 04.Mangue",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Job 04.Mangue",
+        "description": "Job 04.Mangue",
+        "peekOfCode": "result = ajouter_melon(fruits)\nprint(result)",
+        "detail": "Job 04.Mangue",
+        "documentation": {}
+    }
+]
